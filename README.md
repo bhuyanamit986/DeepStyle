@@ -17,7 +17,6 @@ It turns out, the style of an image can be described by the means and correlatio
 
 $$G^l_{cd} = \frac{\sum_{ij} F^l_{ijc}(x)F^l_{ijd}(x)}{IJ}$$
 
-This can be implemented concisely using the `tf.linalg.einsum` function:
 ---
 # Requirements
 Dependencies:
